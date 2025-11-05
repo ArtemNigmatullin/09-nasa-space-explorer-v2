@@ -142,3 +142,14 @@ button:hover {
   font-size: 48px;
   margin-bottom: 20px;
 }
+
+/* NASA palette quick vars */
+:root{
+  --nasa-blue:#0B3D91;
+  --nasa-red:#E03C31;
+}
+
+/* Make header/logo pop a bit more */
+.site-header{ background: var(--nasa-blue); border-radius: 12px; }
+.site-header h1{ color:#fff; }
+#getImageBtn{ background: var(--nasa-red); color:#fff; border:none; font-weight:600; }
